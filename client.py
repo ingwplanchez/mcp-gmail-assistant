@@ -10,7 +10,7 @@ class GmailMCPClient:
     def __init__(self):
         self.ollama_model = os.getenv("OLLAMA_MODEL", "gemma4:31b-cloud")
         self.ollama_host = os.getenv("OLLAMA_HOST", "http://localhost:11434")
-        self.mcp_server_path = "C:\\Users\\USER\\Documents\\wplanchez\\Portafolio\\Repositorios\\Langchain\\curso_mcp\\Tema_04\\gmail_mcp_server.py"
+        self.mcp_server_path = "C:\\Users\\USER\\Documents\\wplanchez\\Portafolio\\Repositorios\\Langchain\\mcp-gmail-assistant\\gmail_mcp_server.py"
 
     async def _get_mcp_client(self):
         """Crea conexión con el servidor MCP"""
