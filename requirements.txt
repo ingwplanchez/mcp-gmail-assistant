@@ -1,0 +1,25 @@
+# Dependencias principales del proyecto Tema_04 (Gmail Assistant con MCP)
+
+# Framework de la interfaz web
+streamlit>=1.40.0
+
+# Protocolo y Servidor MCP
+fastmcp>=4.0.0
+
+# Cliente de IA local
+ollama>=0.4.0
+
+# Integración con Google APIs (Gmail)
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.2.0
+
+# Procesamiento de documentos (recursos del servidor MCP)
+PyPDF2>=3.0.0
+
+# Gestión de variables de entorno
+python-dotenv>=1.0.0
+
+# --- Proveedores de IA opcionales (para arquitectura agnóstica) ---
+# google-genai>=2.0.0
+# openai>=1.50.0
+# anthropic>=0.30.0

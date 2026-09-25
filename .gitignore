@@ -1,0 +1,95 @@
+# Entornos virtuales
+venv/
+.env/
+.venv/
+ENV/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+.build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Instalador de Python
+*.manifest
+*.spec
+
+# Instalaciones / logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Entornos virtuales de tox
+.tox/
+.nox/
+
+# Cobertura
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyDev
+.pydevproject
+
+# Rope
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Pytype static type analyzer
+.pytype/
+
+# C extensions
+*.osz
+*.pdb
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Información SENSIBLE - NUNCA subir estos archivos
+.env
+credentials.json
+token.pickle
+
+# Directorios de logs
+logs/
+*.log
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Otros
+.mvn/
+log/
+logs/
